@@ -1,4 +1,4 @@
-alert("VO QUIEN SO?")
+alert("Ingresa tu nombre")
 const Nombre = "Santiago"
 const Apellido = "Saldivia"
 
@@ -10,7 +10,7 @@ if (usuario === Nombre && apellido === Apellido) {
 
     let nota = prompt("Ingrese su nota");
 
-    if (nota) {
+    if (nota >= 6) {
         alert(Nombre + "Esta aprobado");
     } else {
         alert(Nombre + "Tenes que estudiar el doble");
