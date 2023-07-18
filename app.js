@@ -6,7 +6,7 @@ let usuario = prompt("Ingrese su nombre");
 let apellido = prompt("Ingrese su apellido");
 
 if (usuario === Nombre && apellido === Apellido) {
-    alert("Bienvenido" + Nombre + apellido)
+    alert("Bienvenido" + " " +  Nombre + " "  + apellido)
 
     let nota = prompt("Ingrese su nota");
 
