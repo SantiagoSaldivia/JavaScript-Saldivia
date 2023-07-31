@@ -2,8 +2,7 @@ alert("Bienvenidos a la calculadora de Promedios")
 const usuarioHabilitado = "Santiago"
 const contraseniaHabilitada = "Hola1234"
 
-let usuario = prompt("Ingrese su usuario");
-let contrasenia = prompt("Ingrese su contraseña")
+
 
 if(usuario === usuarioHabilitado && contrasenia === contraseniaHabilitada){
     alert ("Bienvenido " + usuario)
