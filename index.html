@@ -11,89 +11,26 @@
 </head>
 
 <body>
-    <header id="header">
-        <h1>TIENDA DE RIVER</h1> 
-        <img class="carrito" src="./carrito-de-compras.png" alt="carrito">
-    </header>
-    <H2>Precio dolarizado</H2>
-    <div id="contenedor" class="contenedor">
-        <div>
-            <img src="./imagen1.webp" alt="producto 1">
-            <div class="informacion">
-                <p>Camiseta tercer equipo</p>
-                <p class="precio">$100<span>.00</span></p>
-                <button onclick=>Comprar</button>
+    
+    <main>
+        <div class="container">
+            <div class="row">
+                <!-- Elementos generados a partir del JSON -->
+                <main id="items" class="col-sm-8 row"></main>
+                <!-- Carrito -->
+                <aside class="col-sm-4">
+                    <h2>Carrito</h2>
+                    <!-- Elementos del carrito -->
+                    <ul id="carrito" class="list-group"></ul>
+                    <hr>
+                    <!-- Precio total -->
+                    <p class="text-right">Total: <span id="total"></span>&euro;</p>
+                    <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+                </aside>
             </div>
         </div>
-        <div>
-            <img src="imagen2.webp" alt="producto 2">
-            <div class="informacion">
-                <p>Camiseta primer equipo</p>                   
-                <p class="precio">$500<span>.00</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="./imagen3.webp" alt="producto 3">
-            <div class="informacion">
-                <p>Camiseta Campeones <br> Monumentales</p>                   
-                <p class="precio">$300<span>.00</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="./imagen4.webp" alt="producto 4">
-            <div class="informacion">
-                <p>Camperón River</p>                   
-                <p class="precio">$1000<span>.00</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="./imagen5.webp" alt="producto 5">
-            <div class="informacion">
-                <p>Camiseta segundo equipo</p>                   
-                <p class="precio">$300<span>.00</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="./imagen6.webp" alt="producto 6">
-            <div class="informacion">
-                <p>Camiseta Alternativa</p>                   
-                <p class="precio">$400<span>.00</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="./imagen7.webp" alt="producto 7">
-            <div class="informacion">
-                <p>Buzo estampado</p>                   
-                <p class="precio">$200<span>.00</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="./imagen8.webp" alt="producto 8">
-            <div class="informacion">
-                <p>Chomba River </p>                   
-                <p class="precio">$150<span>.00</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="./imagen9.webp" alt="producto 9">
-            <div class="informacion">
-                <p>Pantalón</p>                   
-                <p class="precio">$50<span>.00</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-    </div>
-
+    </main>
     <script src="./app.js">
-        
-    </script>
-</body>
 
-</html>
+        
+        
